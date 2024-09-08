@@ -1,0 +1,72 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-image:url('C:\Codings\contact-form-app\client\src\image\form wallpaper.webp');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.5s;
+  
+}
+.form-container:hover{
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgb(223, 27, 237);
+
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  width: 300px;
+  color: black;
+  font-style: bold;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #b810f1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(254, 3, 183);
+}
+
+p {
+  margin-top: 15px;
+  color: whitesmoke;
+}
